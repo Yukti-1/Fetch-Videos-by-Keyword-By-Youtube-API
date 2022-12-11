@@ -1,7 +1,7 @@
 //YouTube Search API in JavaScript
 gapi.load("client", loadClient);
 
-const YOUTUBE_API_KEY = "AIzaSyD8nQQo5uNTtgr3njLuik1UrBIcLAJRakE";
+const YOUTUBE_API_KEY = "YOUTUBE_API_KEY";
 
 function authenticate() {
     return gapi.auth2.getAuthInstance()
